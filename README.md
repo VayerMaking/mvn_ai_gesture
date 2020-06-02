@@ -16,7 +16,9 @@
 #
 2)Инсталиране на Tensorflow: страница с build-ове:
 #
+##
 https://www.tensorflow.org/install/pip 
+##
 `sudo pip3 install <линк от страницата за build-ове на Tensorflow>`
 #
 3)Изтегляне на тренировъчните скриптове: 
