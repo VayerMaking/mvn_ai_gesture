@@ -9,17 +9,20 @@
 
 
 ### Инструкции за сваляне
+#
 1)Инсталиране на нужните за Tensorflow библиотеки: 
 #
 `sudo apt-get install libblas-dev liblapack-dev python-dev libatlas-base-dev gfortran python-setuptools python-h5py`
+#
 2)Инсталиране на Tensorflow: страница с build-ове:
 #
 https://www.tensorflow.org/install/pip 
 `sudo pip3 install <линк от страницата за build-ове на Tensorflow>`
+#
 3)Изтегляне на тренировъчните скриптове: 
 #
 `git clone https://github.com/VayerMaking/mvn_ai_gesture`
-
+#
 
 ### Инструкции за стартиране на проекта
 *Тук опишете стъпка по стъпка как потребител, който си няма понятие от софтуер в github, да стартира проекта ви*
