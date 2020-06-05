@@ -6,25 +6,19 @@
 
 
 
+## Като за начало
 
+    git clone https://github.com/VayerMaking/mvn_ai_gesture
 
-### Инструкции за сваляне
-#
-1)Инсталиране на нужните за Tensorflow библиотеки: 
-#
-`sudo apt-get install libblas-dev liblapack-dev python-dev libatlas-base-dev gfortran python-setuptools python-h5py`
-#
-2)Инсталиране на Tensorflow: страница с build-ове:
-#
-##
-https://www.tensorflow.org/install/pip 
-##
-`sudo pip3 install <линк от страницата за build-ове на Tensorflow>`
-#
-3)Изтегляне на тренировъчните скриптове: 
-#
-`git clone https://github.com/VayerMaking/mvn_ai_gesture`
-#
+## Инсталиране на нужните библиотеки
+
+  1. За хора с хубави видео карти на Nvidia
+    
+    pip install -r requirements_gpu.txt
+
+  2. За хора без
+
+    pip install -r requirements_cpu.txt
 
 ### Инструкции за стартиране на проекта
 *Тук опишете стъпка по стъпка как потребител, който си няма понятие от софтуер в github, да стартира проекта ви*
@@ -33,7 +27,7 @@ https://www.tensorflow.org/install/pip
 2) ...
 3) ...
 
-## Използвани технологии (задължително)
+## Използвани технологии
 [keras](https://keras.io/) - Keras е библиотека с невронна мрежа с отворен код, написана на Python. Той може да работи над TensorFlow, Microsoft Cognitive Toolkit, R, Theano или PlaidML. Създаден, за да позволи бързи експерименти с дълбоки невронни мрежи, той се фокусира върху това да бъде удобен за потребителя, модулен и разтегателен
 
 [Tensorflow](https://www.tensorflow.org/) - TensorFlow е безплатна и с отворен код софтуерна библиотека за поток от данни и диференциално програмиране в редица задачи.Това е символична математическа библиотека и се използва също за приложения за машинно обучение като невронни мрежи. 
@@ -43,13 +37,12 @@ https://www.tensorflow.org/install/pip
 [Python](https://www.python.org/) - Python е интерпретируем, интерактивен, обектно-ориентиран език за програмиранe
 
 
-* [Име на технологията](линк към официанлния сайт на технологията) - *описание на технологията*
+
 
 ## Информация за авторите на проекта (задължително)
 
-* **Име Фамилия** - *роля в проекта (програмист, дизаинер, хардуерист)* - [Nickname](линк към github на автора
 Мартин Вайер - програмист/хардуерист - [VayerMaking] https://github.com/VayerMaking
 Владислав Колев - програмист
 Никола Маноилов - програмист/дизаинер
 
-### Всякакви допълнителни модификации по README-то са добре дошли (Лиценз, contributing.md, и т.н.) :)
+
