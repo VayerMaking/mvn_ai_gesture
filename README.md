@@ -14,11 +14,17 @@
 
   1. За хора с хубави видео карти на Nvidia
 
-    pip install -r requirements_gpu.txt
+  ```sh
+  pip install -r requirements_gpu.txt
+  ```
+
 
   2. За хора без
+  
+  ```sh
+  pip install -r requirements_cpu.txt
+  ```
 
-    pip install -r requirements_cpu.txt
 
 ## Инструкции за стартиране на проекта
 
