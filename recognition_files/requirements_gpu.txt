@@ -1,0 +1,12 @@
+h5py
+numpy
+scikit-learn
+sklearn
+tensorflow-gpu
+keras
+opencv-python
+pyttsx3
+pydot
+graphviz
+pydot_ng
+piw32
